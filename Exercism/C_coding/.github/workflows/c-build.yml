@@ -21,4 +21,4 @@ jobs:
       run: make
 
     - name: Verificar ejecución (Opcional)
-      run: ./programa_ejecutable
+      run: ./main_ejecutable
