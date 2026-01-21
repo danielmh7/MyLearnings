@@ -19,4 +19,4 @@ jobs:
     - name: Compilar con Makefile
       run: make
     - name: Verificar ejecución (Opcional)
-      run: ./main_ejecutable
+      run: ./Exercism/C_coding/main_ejecutable
