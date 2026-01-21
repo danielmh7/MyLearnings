@@ -18,7 +18,7 @@
 
 // Externs function declarations
 extern unsigned int difference_of_squares(unsigned int number);
-extern uint64_t square(uint8_t index);
+extern uint64_t square_task(uint8_t index);
 extern uint64_t total(void);
 
 extern void llenar_array_colores(char** colors, int tamanio);
