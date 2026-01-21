@@ -25,7 +25,7 @@ test:
 	./test_grains
 	gcc -DUNIT_TEST -IExercism/C_coding Exercism/C_coding/resistor_color.c Exercism/C_coding/test/test_resistor_color.c -o test_resistor
 	./test_resistor
-	gcc -DUNIT_TEST -IExercism/C_coding Exercism/C_coding/main.c Exercism/C_coding/test/test_main.c -o test_main_exec
+	gcc -DUNIT_TEST -IExercism/C_coding Exercism/C_coding/main.c Exercism/C_coding/test/test_main.c Exercism/C_coding/resistor_color.c Exercism/C_coding/difference_of_squares.c Exercism/C_coding/grains_on_a_chessboard.c -o test_main_exec
 	./test_main_exec
 	rm -f test_diff test_grains test_resistor test_main_exec
 
