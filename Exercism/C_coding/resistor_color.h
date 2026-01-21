@@ -15,6 +15,6 @@ typedef enum {
     TOTAL = 10
 } resistor_band_t;
 
-void llenar_array_colores(char** colors, int tamanio);
+void llenar_array_colores(const char** colors, int tamanio);
 
 #endif

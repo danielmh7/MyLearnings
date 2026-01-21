@@ -45,7 +45,7 @@ void test_color_value() {
  */
 void test_llenar_array_colores() {
     int size = TOTAL;
-    char* colors[TOTAL];
+    const char* colors[TOTAL];
     
     // Initialize with NULL or garbage
     for(int i=0; i<TOTAL; i++) colors[i] = NULL;

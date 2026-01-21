@@ -18,5 +18,7 @@ jobs:
       run: sudo apt-get update && sudo apt-get install -y build-essential
     - name: Compilar con Makefile
       run: make
+    - name: Ejecutar pruebas unitarias
+      run: make test
     - name: Verificar ejecución (Opcional)
       run: ./Exercism/C_coding/main_ejecutable

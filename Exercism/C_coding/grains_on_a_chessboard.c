@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdint.h>
 
-uint64_t square(uint8_t number) {
+uint64_t square_task(uint8_t number) {
     if (number < 1 || number > 64) {
         return 0;
     }

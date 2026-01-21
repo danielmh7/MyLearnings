@@ -35,7 +35,7 @@ static const char* color_name(resistor_band_t color) {
     }
 }
 
-void llenar_array_colores(char** a_colors, int tamanio) {
+void llenar_array_colores(const char** a_colors, int tamanio) {
     for (int i = 0; i < tamanio; i++) {
         a_colors[i] = color_name(i);
     }

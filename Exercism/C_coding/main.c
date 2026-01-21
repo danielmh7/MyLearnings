@@ -16,7 +16,7 @@ void granos_de_trigo()
     printf("Coloca el numero del tablero: ");
     unsigned int i_position_board; 
     scanf("%d", &i_position_board);
-    uint64_t granos = square(i_position_board);
+    uint64_t granos = square_task(i_position_board);
     //printf("En esa posicion tienes: %I64u granos\n", granos);
     //printf("El total es: %I64u granos\n", total());
 }
@@ -24,7 +24,7 @@ void granos_de_trigo()
 void resistor_colors_excersise()
 {
     const int tamanio = TOTAL;
-    char* colors[TOTAL];
+    const char* colors[TOTAL];
     llenar_array_colores(colors, tamanio);
     for (int i = 0; i < tamanio; i++) {
         printf("Color %d: %s\n", i, colors[i]);
@@ -32,6 +32,7 @@ void resistor_colors_excersise()
 }
 
 
+#ifndef UNIT_TEST
 int main() {
 
     // This is my first C program
@@ -41,4 +42,5 @@ int main() {
     printf("Let's run some code...\n");
     return 0;
 }
+#endif
 
