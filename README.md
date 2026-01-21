@@ -1,2 +1,46 @@
 # MyLearnings
-This repo is focused on trainings and new learnings for different code languages and tools.
+
+This repository documents my journey in learning different programming languages and tools, with a current primary focus on **C programming**.
+
+## 📂 Repository Structure
+
+The project is organized by learning platforms and languages:
+
+- **Exercism/**: Contains solutions for Exercism exercises.
+  - **C_coding/**: C language exercises and unit tests.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **GCC Compiler**: Ensure you have `gcc` installed and added to your system PATH.
+- **Make** (Optional): For running Makefile commands.
+
+### 🛠️ Build and Test
+
+#### Windows (cmd)
+
+You can use the provided batch script to compile and run all tests:
+
+```cmd
+build_and_test.cmd
+```
+
+#### Using Make
+
+If you have `make` installed, you can use the following commands:
+
+- **Build main executables**:
+  ```sh
+  make all
+  ```
+
+- **Run unit tests**:
+  ```sh
+  make test
+  ```
+
+- **Clean build artifacts**:
+  ```sh
+  make clean
+  ```
