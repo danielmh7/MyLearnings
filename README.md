@@ -25,22 +25,3 @@ You can use the provided batch script to compile and run all tests:
 ```cmd
 build_and_test.cmd
 ```
-
-#### Using Make
-
-If you have `make` installed, you can use the following commands:
-
-- **Build main executables**:
-  ```sh
-  make all
-  ```
-
-- **Run unit tests**:
-  ```sh
-  make test
-  ```
-
-- **Clean build artifacts**:
-  ```sh
-  make clean
-  ```
